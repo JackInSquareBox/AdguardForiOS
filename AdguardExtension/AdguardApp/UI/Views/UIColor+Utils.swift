@@ -20,10 +20,10 @@ import UIKit
 
 extension UIColor {
     struct AdGuardColor {
-        static let lightGreen1: UIColor = #colorLiteral(red: 0.4039215686, green: 0.6980392157, blue: 0.4745098039, alpha: 1)     //hex = #67b279
-        static let lightGreen2: UIColor = #colorLiteral(red: 0.4117647059, green: 0.6980392157, blue: 0.4745098039, alpha: 1)     //hex = #69b279
-        static let green: UIColor = #colorLiteral(red: 0.3019607843, green: 0.6, blue: 0.3725490196, alpha: 1)           //hex = #4d995f
-        static let darkGreen: UIColor = #colorLiteral(red: 0.2235294118, green: 0.4666666667, blue: 0.2980392157, alpha: 1)       //hex = #39774c
+        static let lightGreen1: UIColor = #colorLiteral(red: 1.0, green: 0.6, blue: 0.6, alpha: 1)     //hex = #67b279
+        static let lightGreen2: UIColor = #colorLiteral(red: 1.0, green: 0.545, blue: 0.545, alpha: 1)     //hex = #69b279
+        static let green: UIColor = #colorLiteral(red: 0.89, green: 0.0, blue: 0.13, alpha: 1)           //hex = #4d995f
+        static let darkGreen: UIColor = #colorLiteral(red: 0.6, green: 0.0, blue: 0.0, alpha: 1)       //hex = #39774c
         static let vpnLightGreen: UIColor = #colorLiteral(red: 0.4549019608, green: 0.6392156863, blue: 0.3215686275, alpha: 1)   //hex = #74a352
         static let vpnGreen: UIColor = #colorLiteral(red: 0.337254902, green: 0.5019607843, blue: 0.2509803922, alpha: 1)        //hex = #568040
         static let vpnDarkGreen: UIColor = #colorLiteral(red: 0.2431372549, green: 0.3607843137, blue: 0.1803921569, alpha: 1)    //hex = 3e5c2e

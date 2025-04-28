@@ -50,8 +50,11 @@ final class IntroductionOnboardingController: UIViewController {
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let controller = segue.destination as? OnboardingAnimationsController {
-            controller.delegate = delegate
+//        if let controller = segue.destination as? OnboardingAnimationsController {
+//            controller.delegate = delegate
+//        }
+        if let controller = segue.destination as? MainPageController {
+            
         }
     }
 

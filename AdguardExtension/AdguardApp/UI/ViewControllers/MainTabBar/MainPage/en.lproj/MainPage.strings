@@ -1,5 +1,5 @@
 /* Class = "UILabel"; text = "AdGuard uses iOS 15 Safari Extensions to remove ads more effectively. Now it takes just one tap to block YouTube ads in Safari."; ObjectID = "0IU-PO-Xeh"; */
-"0IU-PO-Xeh.text" = "AdGuard uses iOS 15 Safari Extensions to remove ads more effectively. Now it takes just one tap to block YouTube ads in Safari.";
+"0IU-PO-Xeh.text" = "Simple Ad Blocker uses iOS 15 Safari Extensions to remove ads more effectively. Now it takes just one tap to block YouTube ads in Safari.";
 
 /* Class = "UILabel"; text = "Get stronger with Premium!"; ObjectID = "3qN-uj-pOb"; */
 "3qN-uj-pOb.text" = "Get stronger with Premium!";
@@ -29,7 +29,7 @@
 "FcP-gP-TsG.text" = "Some content blockers are disabled";
 
 /* Class = "UINavigationItem"; title = "AdGuard"; ObjectID = "YaQ-RE-YZT"; Note = "Main Menu header"; */
-"YaQ-RE-YZT.title" = "AdGuard";
+"YaQ-RE-YZT.title" = "Simple Ad Blocker";
 
 /* Class = "UILabel"; text = "blocked"; ObjectID = "a5U-A8-S8G"; */
 "a5U-A8-S8G.text" = "blocked";
@@ -38,7 +38,7 @@
 "cvv-CS-LMQ.text" = "Some Safari content blockers are disabled";
 
 /* Class = "UILabel"; text = "New AdGuard features in iOS 15"; ObjectID = "gDV-cq-ZDm"; */
-"gDV-cq-ZDm.text" = "New AdGuard features in iOS 15";
+"gDV-cq-ZDm.text" = "New Simple Ad Blocker features in iOS 15";
 
 /* Class = "UIButton"; normalTitle = "Fix it"; ObjectID = "oe6-9O-dBB"; */
 "oe6-9O-dBB.normalTitle" = "Fix it";

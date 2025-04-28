@@ -13,7 +13,7 @@
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.adguard.AdguardPro</string>
+		<string>group.com.squareboxtech.AdguardPro</string>
 	</array>
 </dict>
 </plist>

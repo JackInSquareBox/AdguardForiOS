@@ -44,6 +44,7 @@ final class MainPageController: UIViewController, DateTypeChangedProtocol, Compl
     // MARK: - Protection status elements
 
     private lazy var safariProtectionButton = { getButton(for: .safari) }()
+//    private lazy var safariProtectionButton = { }
     private lazy var systemProtectionButton = { getButton(for: .system) }()
     private lazy var vpnUpsellButton: RoundRectButton? = {
         if !ChineseUserExposer.isUserFromChina {
@@ -633,7 +634,7 @@ final class MainPageController: UIViewController, DateTypeChangedProtocol, Compl
     private func processState() {
         let isNativeImplementation = resources.dnsImplementation == .native
 
-        getProView.isHidden = true
+//        getProView.isHidden = true
         statisticsStackView.isHidden = true
         nativeDnsView.isHidden = true
         changeStatisticsDatesButton.isHidden = true
@@ -645,9 +646,10 @@ final class MainPageController: UIViewController, DateTypeChangedProtocol, Compl
                 statisticsStackView.isHidden = false
                 changeStatisticsDatesButton.isHidden = false
             }
-        } else {
-            getProView.isHidden = false
         }
+//        else {
+//            getProView.isHidden = false
+//        }
         systemProtectionButton.buttonIsOn = complexProtection.systemProtectionEnabled
     }
 
@@ -719,14 +721,15 @@ final class MainPageController: UIViewController, DateTypeChangedProtocol, Compl
         let onboardingShown = resources.sharedDefaults().bool(forKey: OnboardingWasShown)
 
         DDLogInfo("Content blockers states changed; onboardingShown = \(onboardingShown); onBoardingIsInProcess = \(onBoardingIsInProcess)")
-        if !onBoardingIsInProcess {
-            if !onboardingShown {
-                configuration.showStatusBar = false
-                showOnboarding()
-            } else {
-                showContentBlockersHelperIfNeeded()
-            }
-        }
+//        if !onBoardingIsInProcess {
+//            if !onboardingShown {
+//                configuration.showStatusBar = false
+//                showOnboarding()
+//            } else {
+//                showContentBlockersHelperIfNeeded()
+//            }
+//        }
+        showContentBlockersHelperIfNeeded()
     }
 
     /**
@@ -971,7 +974,7 @@ extension MainPageController: ThemableProtocol {
         chartView.updateTheme()
         view.backgroundColor = theme.backgroundColor
         theme.setupLabels(themableLabels)
-        getProView.backgroundColor = theme.backgroundColor
+//        getProView.backgroundColor = theme.backgroundColor
 
         contentBlockerViewIphone.backgroundColor = theme.notificationWindowColor
         contentBlockerViewIpad.backgroundColor = UIColor.AdGuardColor.lightGray6
@@ -1064,6 +1067,8 @@ fileprivate extension MainPageController {
         button.contentHorizontalAlignment = .fill
         button.setImage(type.image, for: .normal)
         button.addTarget(self, action: type.selector, for: .touchUpInside)
+        
+        button.isHidden = true
 
         button.translatesAutoresizingMaskIntoConstraints = false
         let side: CGFloat = isIphoneSeLike ? 24.0 : (isIpadTrait ? 42.0 : 32.0)

@@ -26,17 +26,17 @@ class ContentBlockerStateCell: UITableViewCell {
             guard let state = blockerState?.contentBlockerType else { return }
             switch  state{
             case .general:
-                name = "AdGuard — General"
+                name = "Simple Ad Blocker — General"
             case .privacy:
-                name = "AdGuard — Privacy"
+                name = "Simple Ad Blocker — Privacy"
             case .socialWidgetsAndAnnoyances:
-                name = "AdGuard — Social"
+                name = "Simple Ad Blocker — Social"
             case .other:
-                name = "AdGuard — Other"
+                name = "Simple Ad Blocker — Other"
             case .custom:
-                name = "AdGuard — Custom"
+                name = "Simple Ad Blocker — Custom"
             case .security:
-                name = "AdGuard — Security"
+                name = "Simple Ad Blocker — Security"
             }
             
             self.filterNameLabel.text = name

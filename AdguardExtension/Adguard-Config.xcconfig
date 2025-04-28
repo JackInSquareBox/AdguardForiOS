@@ -19,7 +19,7 @@
 #include "Common-Config.xcconfig"
 
 // Global product settings
-AG_PRODUCT = AdGuard
+AG_PRODUCT = Simple Ad Blocker
 
 // URL scheme for receiving commands in Adguard main app from Safari
 ADGUARD_URL_SCHEME = adguard

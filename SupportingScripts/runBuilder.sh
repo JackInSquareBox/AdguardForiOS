@@ -41,12 +41,31 @@ wget -O "${SRCROOT}/../YouTubeAdsActionExtension/userscript.js" https://raw.gith
 
 
 echo "============================== BUILD BUILDER ==================================="
-xcodebuild -workspace "${SRCROOT}/../AdguardSafariExtension-iOS.xcworkspace" -scheme "Builder" -configuration "${CONFIGURATION}" -derivedDataPath "${SYMROOT}"
 
+# Build the Builder target using xcodebuild
+xcodebuild \
+  -workspace "${SRCROOT}/../AdguardSafariExtension-iOS.xcworkspace" \
+  -scheme "Builder" \
+  -configuration "${CONFIGURATION}" \
+  -derivedDataPath "${SYMROOT}"
 
 echo "================================ RUN BUILDER ==================================="
+
+# Print the Builder Resources directory for reference
 echo "resource folder:"
 echo "${BUILDER_RESOURCES_DIR}"
+
+# Set the path to the Builder executable (inside Debug, not Debug-iphonesimulator)
+#BUILDER_EXECUTABLE="${SYMROOT}/Debug/Builder"
+
+# Check if Builder binary exists
+#if [ ! -f "$BUILDER_EXECUTABLE" ]; then
+#  echo "❌ Builder executable not found at: $BUILDER_EXECUTABLE"
+#  exit 1
+#fi
+
+# Run the Builder executable with configuration and resource path
+#"$BUILDER_EXECUTABLE" --${CONFIGURATION} "${BUILDER_RESOURCES_DIR}" || exit 1
 "${BUILDER_DIR}"/Builder --${CONFIGURATION} "${BUILDER_RESOURCES_DIR}" || exit 1
 
 echo "============================ RUN BUILDER DONE =================================="

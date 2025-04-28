@@ -24,8 +24,6 @@
 	<string></string>
 	<key>NSExtension</key>
 	<dict>
-		<key>NSExtensionPrincipalClass</key>
-		<string>$(PRODUCT_MODULE_NAME).YouTubeAdsRequestHandler</string>
 		<key>NSExtensionActionWantsFullScreenPresentation</key>
 		<true/>
 		<key>NSExtensionAttributes</key>
@@ -42,6 +40,8 @@
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.ui-services</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>$(PRODUCT_MODULE_NAME).YouTubeAdsRequestHandler</string>
 	</dict>
 </dict>
 </plist>

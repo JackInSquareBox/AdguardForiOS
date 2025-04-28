@@ -7,7 +7,7 @@
 /* (AEService) Service errors descriptions */
 "json_converting_error" = "Cannot initialize converter to JSON format.";
 
-/* (Action Extension - Adguard Assistant) Assistant UI. Title for 'close icon' button */
+/* (Action Extension - Simple Ad Blocker Assistant) Assistant UI. Title for 'close icon' button */
 "common_action_cancel" = "Cancel";
 
 /* (AEService) Service errors descriptions */
@@ -130,8 +130,8 @@
 /* (SignInController) user not found message */
 "user_not_found_message" = "No user found with this email address. Please sign up at %@ first.";
 
-/* (SignInController) SignIn via AdGuard account title */
-"sign_in_via_adguard_title" = "Use AdGuard account";
+/* (SignInController) SignIn via Simple Ad Blocker account title */
+"sign_in_via_Simple Ad Blocker_title" = "Use Simple Ad Blocker account";
 
 /* (SignInController) SignIn via Apple account title */
 "sign_in_via_apple_title" = "Continue with Apple";
@@ -149,25 +149,25 @@
 "premium_expired_title" = "Attention";
 
 /* (AEUIGetProViewController) message that appears if the account is not premium */
-"not_premium_message" = "You have successfully logged into your AdGuard account, but there are no license keys that allow you to activate the Premium version.";
+"not_premium_message" = "You have successfully logged into your Simple Ad Blocker account, but there are no license keys that allow you to activate the Premium version.";
 
 /* (AEUIGetProViewController) message that appears when the user successfully logs in */
-"login_success_message" = "You have successfully logged into your AdGuard account! The Premium version of AdGuard for iOS has been activated.";
+"login_success_message" = "You have successfully logged into your Simple Ad Blocker account! The Premium version of Simple Ad Blocker for iOS has been activated.";
 
 /* (AEUIGetProViewController) message that appears when the user successfully logs in but all premium keys have expired */
-"login_premium_expired_message" = "You have successfully logged into your AdGuard account, but the license keys that allow you to activate the Premium version have expired.";
+"login_premium_expired_message" = "You have successfully logged into your Simple Ad Blocker account, but the license keys that allow you to activate the Premium version have expired.";
 
 /* (AEUIGetProViewController) message that appears when an error occurred during purchase restoring */
 "restore_purchases_failure_message" = "An error occurred while trying to restore the purchase.";
 
 /* (AEUIGetProViewController) message that appears when purchase successfully restored */
-"restore_success_message" = "Purchase restored! The Premium version of AdGuard for iOS has been activated.";
+"restore_success_message" = "Purchase restored! The Premium version of Simple Ad Blocker for iOS has been activated.";
 
 /* (AEUIGetProControllerViewController) this message showes when user try ro restore purchases but there is nothing to restore. */
 "nothing_to_restore_message" = "No purchases to restore";
 
 /* (AEUIGetProViewController) message that appears when the purchase is successful */
-"purchase_success_message" = "Purchase successfully completed! The Premium version of AdGuard for iOS has been activated.";
+"purchase_success_message" = "Purchase successfully completed! The Premium version of Simple Ad Blocker for iOS has been activated.";
 
 /* (AEUIGetProViewController) message that appears when an error occurred during purchase */
 "purchase_failure_message" = "An error occurred while processing your purchase.";
@@ -185,16 +185,16 @@
 "blacklist_text_format" = "You can add your own rules here.<br>Read this <a href=\"%@\">note about the rule syntax</a>.";
 
 /* (UserFilterController) whitelist description */
-"whitelist_text" = "Enter here the domains you don't want AdGuard to filter. This list takes precedence over other settings.";
+"whitelist_text" = "Enter here the domains you don't want Simple Ad Blocker to filter. This list takes precedence over other settings.";
 
 /* (UserFilterController) inverted whitelist description */
-"inverted_whitelist_text" = "Enter the domain names here. AdGuard will enable filtering in Safari for these websites only.";
+"inverted_whitelist_text" = "Enter the domain names here. Simple Ad Blocker will enable filtering in Safari for these websites only.";
 
 /* (UserFilterController) dns whitelist description */
-"dns_whitelist_text" = "Enter here the domain names separated by line breaks. AdGuard will allow all connections to these domains.";
+"dns_whitelist_text" = "Enter here the domain names separated by line breaks. Simple Ad Blocker will allow all connections to these domains.";
 
 /* (UserFilterController) dns blocklist description */
-"dns_blacklist_text_format" = "This Blocklist supports <a href=\"%@\">AdGuard's DNS syntax</a>. Enter here the rules separated by line breaks. AdGuard will block all connections to domains that match these rules.";
+"dns_blacklist_text_format" = "This Blocklist supports <a href=\"%@\">Simple Ad Blocker's DNS syntax</a>. Enter here the rules separated by line breaks. Simple Ad Blocker will block all connections to domains that match these rules.";
 
 /* (MainController) message that appers when filters updating */
 "update_filter_start_message" = "Updating...";
@@ -247,8 +247,8 @@
 /* (DnsSettingController) Full (without VPN icon) mode description */
 "tunnel_mode_full_without_icon_description" = "Full-Tunnel (without VPN icon), incompatible with other VPN apps, less stable";
 
-/* (DnsSettingController) AdGuard DNS implementation title */
-"adguard_dns_implementation_title" = "AdGuard";
+/* (DnsSettingController) Simple Ad Blocker DNS implementation title */
+"Simple Ad Blocker_dns_implementation_title" = "Simple Ad Blocker";
 
 /* (DnsSettingController) Native DNS implementation title */
 "native_dns_implementation_title" = "Native";
@@ -281,10 +281,10 @@
 "login_error_message" = "An error occurred while logging in";
 
 /* purchase secription format */
-"purchase_description_format" = "AdGuard Subscription Terms<br><br>• Payment will be charged to your iTunes Account at confirmation of purchase.<br><br>• Subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period.<br><br>• The subscription renewal fee will be charged to your iTunes Account within 24 hours of the end of the current period.<br><br>• You can manage your subscription and turn off auto-renewal by going to your Account Settings after purchase.<br><br>AdGuard <a href=%2$@>EULA</a> and <a href=%1$@>Privacy policy</a>";
+"purchase_description_format" = "Simple Ad Blocker Subscription Terms<br><br>• Payment will be charged to your iTunes Account at confirmation of purchase.<br><br>• Subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period.<br><br>• The subscription renewal fee will be charged to your iTunes Account within 24 hours of the end of the current period.<br><br>• You can manage your subscription and turn off auto-renewal by going to your Account Settings after purchase.<br><br>Simple Ad Blocker <a href=%2$@>EULA</a> and <a href=%1$@>Privacy policy</a>";
 
 /* lifetime purchase secription format */
-"lifetime_purchase_description_format" = "AdGuard's <a href=%2$@>EULA</a> and <a href=%1$@>Privacy Policy</a>";
+"lifetime_purchase_description_format" = "Simple Ad Blocker's <a href=%2$@>EULA</a> and <a href=%1$@>Privacy Policy</a>";
 
 /* DnsSettingsController - alert button. This message is shown when the user first starts the VPN. */
 "common_action_ok" = "Ok";
@@ -368,24 +368,24 @@
 "failed_updating_current_state_label" = "Filters have not been updated";
 
 /* (GetProController) login error message text */
-"login_max_computers_exceeded" = "This license has been activated on the maximum number of devices.\nYou can unbind the license from unused devices in your personal account on the website: adguard.com";
+"login_max_computers_exceeded" = "This license has been activated on the maximum number of devices.\nYou can unbind the license from unused devices in your personal account on the website: Simple Ad Blocker.com";
 
-/* (Action Extension - ActionViewController) An error which occurs if the action extension is launched before the main Adguard app. */
+/* (Action Extension - ActionViewController) An error which occurs if the action extension is launched before the main Simple Ad Blocker app. */
 "action_extension_no_configuration_message_format" = "Before you can use this action extension, %1$@ has to perform an initial configuration. Launch the main %2$@ app to let it do so.";
 
 /* (Action Extension - AEAUIMainController) error occurs when content blocker is disabled. */
-"content_blocker_disabled_format" = "Note that Content blocker is disabled. That means ads will not be filtered regardless of AdGuard settings. Please enable AdGuard Content blocker in Safari settings to start filtering.";
+"content_blocker_disabled_format" = "Note that Content blocker is disabled. That means ads will not be filtered regardless of Simple Ad Blocker settings. Please enable Simple Ad Blocker Content blocker in Safari settings to start filtering.";
 
 /* (Action Extension - ActionViewController) Can't obtain hostname when starting. */
 "hostname_obtaining_error" = "The hostname is not obtained. Perhaps the page has not been loaded yet.";
 
 /* (Action Extension - AEAUIMainController) error occurs when click on Block Element button. */
-"assistant_launching_unable" = "This website's security policy does not allow launching AdGuard Assistant.";
+"assistant_launching_unable" = "This website's security policy does not allow launching Simple Ad Blocker Assistant.";
 
 /* (Action Extension - ActionViewController) Some errors when starting. */
-"support_error_safari_extension" = "An unexpected error occurred while initializing Safari action extension. Please contact AdGuard Support if this happens again.";
+"support_error_safari_extension" = "An unexpected error occurred while initializing Safari action extension. Please contact Simple Ad Blocker Support if this happens again.";
 
-/* (APUIAdguardDNSController) PRO version. Alert title. On warning. */
+/* (APUISimple Ad BlockerDNSController) PRO version. Alert title. On warning. */
 "common_warning_title" = "Warning";
 
 /* (Action Extension - AEAUIMainController) error occurs when try turn off filtration on site. */
@@ -409,8 +409,8 @@
 /* (AboutViewController) current app version format */
 "about_version_format" = "Version %@";
 
-/* (AboutViewController) AdGuard copyright string */
-"copyright_format" = "© 2009 — %@ AdGuard Software Ltd.\nAll rights reserved. AdGuard.com";
+/* (AboutViewController) Simple Ad Blocker copyright string */
+"copyright_format" = "© 2009 — %@ Simple Ad Blocker Software Ltd.\nAll rights reserved. Simple Ad Blocker.com";
 
 /* (LicensePageViewController) Login title */
 "common_login" = "Log in";
@@ -731,13 +731,13 @@
 "advanced_protection_onboarding_second_step_text" = "Go to <b>Safari > Extensions</b>.";
 
 /* (OnboardingController) third step text */
-"onboarding_third_step_text" = "<b>Enable</b> all AdGuard extensions.";
+"onboarding_third_step_text" = "<b>Enable</b> all Simple Ad Blocker extensions.";
 
 /* (OnboardingController) third step with advanced protection text */
-"advanced_protection_onboarding_third_step_text" = "Set all AdGuard toggles to <b>on</b>. You`re good to go!";
+"advanced_protection_onboarding_third_step_text" = "Set all Simple Ad Blocker toggles to <b>on</b>. You`re good to go!";
 
 /* (OnboardingContentView) fours step. '%@' will be replaced with the share icon */
-"onboarding_fours_step_text" = "For <b>Advanced</b> protection, open Safari, tap the <b>aA</b> icon on the left side of the URL field,<br><br> %@ <br><br>then tap <b>Manage extensions</b> and switch on the <b>AdGuard</b> toggle.";
+"onboarding_fours_step_text" = "For <b>Advanced</b> protection, open Safari, tap the <b>aA</b> icon on the left side of the URL field,<br><br> %@ <br><br>then tap <b>Manage extensions</b> and switch on the <b>Simple Ad Blocker</b> toggle.";
 
 /* (BlockRequestController) Block request title */
 "block_request" = "Block request";
@@ -857,7 +857,7 @@
 "bug_report_successed_message" = "Your bug report was successfully sent!";
 
 /* (IntroductionOnboardingController) - License agreement text */
-"introduction_license_agreement" = "I agree to AdGuard's <a href=%2$@>EULA</a> and <a href=%1$@>Privacy Policy</a>.";
+"introduction_license_agreement" = "I agree to Simple Ad Blocker's <a href=%2$@>EULA</a> and <a href=%1$@>Privacy Policy</a>.";
 
 /* (ActivityViewController) - Requests alert title */
 "requests_info_alert_title" = "Requests";
@@ -869,7 +869,7 @@
 "blocked_info_alert_title" = "Blocked requests";
 
 /* (ActivityViewController) -  Blocked alret message */
-"blocked_info_alert_message" = "AdGuard filters most of your phone's DNS requests, blocking tracking and dangerous ones\n\nHere's the total number of requests blocked by AdGuard for the selected time period";
+"blocked_info_alert_message" = "Simple Ad Blocker filters most of your phone's DNS requests, blocking tracking and dangerous ones\n\nHere's the total number of requests blocked by Simple Ad Blocker for the selected time period";
 
 /* (ActivityViewController) - encrypted alert title */
 "encrypted_info_alert_title" = "Encrypted requests";
@@ -887,7 +887,7 @@
 "data_saved_info_alert_title" = "Saved data";
 
 /* (ActivityViewController) -  Data saved alret message */
-"data_saved_info_alert_message" = "AdGuard prevents your device from loading in-app trackers, reducing your device's data usage\n\nHere’s the total amount of data saved by AdGuard for the selected time period";
+"data_saved_info_alert_message" = "Simple Ad Blocker prevents your device from loading in-app trackers, reducing your device's data usage\n\nHere’s the total amount of data saved by Simple Ad Blocker for the selected time period";
 
 /* (ActivityViewController) - Companies alert title */
 "companies_info_alert_title" = "Number of companies";
@@ -1089,13 +1089,13 @@
 "import_dns_user_rules" = "Add DNS User Rules";
 
 /* (ImportSettingsController) disable YouTube feature title */
-"disable_youtube_feature" = "Disable AdGuard Player";
+"disable_youtube_feature" = "Disable Simple Ad Blocker Player";
 
 /* (LowLevelSettingsController) Low level settings description. <b style=color:#c23814ff> It is a color for WARNING! word*/
 "low_level_description" = "<b style=color:#c23814ff>WARNING!</b> Enabling these features may break the Internet connection or compromise your security and privacy.";
 
 /* (LowLevelSettingsController) Low level settings beta channel link */
-"low_level_beta_link" = "Interested in cool new AdGuard features? Try our <a href=\"%@\">beta channel</a>.";
+"low_level_beta_link" = "Interested in cool new Simple Ad Blocker features? Try our <a href=\"%@\">beta channel</a>.";
 
 /* (LowLevelSettingsController) Low level bootstraps placeholder */
 "low_level_bootstraps_placeholder" = "List of plain DNS servers to be used to resolve DOH/DOT hostnames (if any)";
@@ -1139,16 +1139,16 @@ DO NOT TRANSLATE "none" */
 "setapp_device_limit_reached" = "You have connected the maximum number of devices to your Setapp account.";
 
 /* (AdvancedYouTubeBlockingController) YouTube blocking instruction text that is shown if youtube app is installed */
-"block_youtube_ads_instructions_safari" = "Did you know that YouTube has changed its algorithms to show you more ads?<br><br>Now, to block them you need to:<br><br>1. Open <a href=\"%@\">Safari</a>.<br><br>2. Open youtube.com.<br><br>3. Tap %@ Share.<br><br> 4. Tap \"Block YouTube Ads (by AdGuard)\".";
+"block_youtube_ads_instructions_safari" = "Did you know that YouTube has changed its algorithms to show you more ads?<br><br>Now, to block them you need to:<br><br>1. Open <a href=\"%@\">Safari</a>.<br><br>2. Open youtube.com.<br><br>3. Tap %@ Share.<br><br> 4. Tap \"Block YouTube Ads (by Simple Ad Blocker)\".";
 
 /* (AdvancedYouTubeBlockingController) YouTube blocking instruction text  */
-"block_youtube_ads_instructions" = "Did you know that YouTube has changed its algorithms to show you more ads?<br><br>Now, to block them you need to:<br><br>1. Open <a href=\"%@\">youtube.com</a> in Safari.<br><br>2. Tap %@ Share.<br><br>3. Tap \"Block YouTube Ads (by AdGuard)\".";
+"block_youtube_ads_instructions" = "Did you know that YouTube has changed its algorithms to show you more ads?<br><br>Now, to block them you need to:<br><br>1. Open <a href=\"%@\">youtube.com</a> in Safari.<br><br>2. Tap %@ Share.<br><br>3. Tap \"Block YouTube Ads (by Simple Ad Blocker)\".";
 
 /* (AdvancedYouTubeBlockingController) YouTube blocking instruction done text that is shown if youtube app is installed */
-"block_youtube_ads_instructions_done_text_safari" = "Done! Now you can watch YouTube without ads.\n\nWhen the extension is enabled, a caption “with AdGuard” is displayed next to the YouTube logo.<br><br><b>If you reload the page, you’ll have to redo steps 3 and 4.</b>";
+"block_youtube_ads_instructions_done_text_safari" = "Done! Now you can watch YouTube without ads.\n\nWhen the extension is enabled, a caption “with Simple Ad Blocker” is displayed next to the YouTube logo.<br><br><b>If you reload the page, you’ll have to redo steps 3 and 4.</b>";
 
 /* (AdvancedYouTubeBlockingController) YouTube blocking instruction done text  */
-"block_youtube_ads_instructions_done_text" = "Done! Now you can watch YouTube without ads.\n\nWhen the extension is enabled, a caption “with AdGuard” is displayed next to the YouTube logo.<br><br><b>If you reload the page, you’ll have to redo steps 2 and 3.</b>";
+"block_youtube_ads_instructions_done_text" = "Done! Now you can watch YouTube without ads.\n\nWhen the extension is enabled, a caption “with Simple Ad Blocker” is displayed next to the YouTube logo.<br><br><b>If you reload the page, you’ll have to redo steps 2 and 3.</b>";
 
 // MARK: - YouTubeAdsRequestHandler
 /* (YouTubeAdsRequestHandler) - Title for notification when YouTube ads script was successfully executed */
@@ -1167,7 +1167,7 @@ DO NOT TRANSLATE "none" */
 // MARK: - ActionExtensionMainController
 /* (ActionExtensionMainController) - ActionExtension info for iOS 15>= */
 
-"action_extension_obsolete_info" = "This action extension is out of date but the new AdGuard Web Safari extension is available in the aA menu. To start using the new extension, open the aA menu, tap Manage Extensions and switch on the AdGuard toggle.";
+"action_extension_obsolete_info" = "This action extension is out of date but the new Simple Ad Blocker Web Safari extension is available in the aA menu. To start using the new extension, open the aA menu, tap Manage Extensions and switch on the Simple Ad Blocker toggle.";
 
 /* (ActionExtensionMainController) - ActionExtension info for iOS 14<= */
 "action_extension_new_version_info" = "A new version of this extension is available for iOS 15. It has more capabilities and an improved UI. Remember to update!";
@@ -1224,28 +1224,28 @@ DO NOT TRANSLATE "none" */
 "youtube_player_controller_userscript_error_message" = "Failed to create userscript";
 
 /* (YoutubePlayerController) YouTube feature disabled alert title */
-"youtube_player_controller_feature_disabled_title" = "AdGuard Player disabled";
+"youtube_player_controller_feature_disabled_title" = "Simple Ad Blocker Player disabled";
 
 /* (YoutubePlayerController) YouTube feature disabled alert message */
-"youtube_player_controller_feature_disabled_message" = "Video sharing with AdGuard is not available";
+"youtube_player_controller_feature_disabled_message" = "Video sharing with Simple Ad Blocker is not available";
 
 /* (YouTubeAdsRequestHandler) 'no url error' alert title */
 "youtube_share_extension_no_url_title" = "No URL provided";
 
 /* (YouTubeAdsRequestHandler) 'no url error' alert message */
-"youtube_share_extension_no_url_summary" = "Share YouTube videos to AdGuard to watch them without ads";
+"youtube_share_extension_no_url_summary" = "Share YouTube videos to Simple Ad Blocker to watch them without ads";
 
 /* (YouTubeAdsRequestHandler) 'bad url error' alert title */
 "youtube_share_extension_bad_url_title" = "Invalid URL";
 
 /* (YouTubeAdsRequestHandler) 'bad url error' alert message */
-"youtube_share_extension_bad_url_summary" = "Share YouTube videos to AdGuard to watch them without ads";
+"youtube_share_extension_bad_url_summary" = "Share YouTube videos to Simple Ad Blocker to watch them without ads";
 
 /* (YouTubeAdsRequestHandler) 'item provider error' alert title */
 "youtube_share_extension_item_provider_error_title" = "Internal error";
 
 /* (YouTubeAdsRequestHandler) 'item provider error' alert message */
-"youtube_share_extension_item_provider_error_summary" = "Failed to share the link to AdGuard";
+"youtube_share_extension_item_provider_error_summary" = "Failed to share the link to Simple Ad Blocker";
 
 /* (YouTubeAdsRequestHandler) 'item provider error' alert title */
 "youtube_share_extension_item_provider_unknown_error_title" = "Unknown error";
@@ -1254,4 +1254,4 @@ DO NOT TRANSLATE "none" */
 "youtube_share_extension_item_provider_unknown_error_summary" = "Something went wrong";
 
 /* (DevAccountMigrationHelper) 'Content blockers are disabled after dev account migration' notification title */
-"dev_account_migration_helper_content_blockers_disabled_title" = "AdGuard content blockers are disabled in Safari settings. Enable them to allow us block ads and trackers.";
+"dev_account_migration_helper_content_blockers_disabled_title" = "Simple Ad Blocker content blockers are disabled in Safari settings. Enable them to allow us block ads and trackers.";

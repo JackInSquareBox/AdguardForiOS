@@ -85,15 +85,15 @@ final class OnboardingController: UIViewController {
 
     @IBAction func closeAction(_ sender: Any) {
         // We mustn't show License screen for japannese in onboarding
-        let isJapanesse = Locale.current.languageCode == "ja"
+//        let isJapanesse = Locale.current.languageCode == "ja"
 
-        if needsShowingPremium == true && !configuration.proStatus && !isJapanesse{
-            performSegue(withIdentifier: self.showLicenseSegue, sender: self)
-        } else {
+//        if needsShowingPremium == true && !configuration.proStatus && !isJapanesse{
+//            performSegue(withIdentifier: self.showLicenseSegue, sender: self)
+//        } else {
             dismiss(animated: true) { [weak self] in
                 self?.delegate?.onboardingDidFinish()
             }
-        }
+//        }
     }
 
     @IBAction func videoAction(_ sender: UIButton) {
@@ -130,18 +130,18 @@ final class OnboardingController: UIViewController {
 
     private func observeContentBlockersState(){
         // We mustn't show License screen for japannese in onboarding
-        let isJapanesse = Locale.current.languageCode == "ja"
+//        let isJapanesse = Locale.current.languageCode == "ja"
 
         if needsShowingPremium == true && configuration.someContentBlockersEnabled && !configuration.proStatus {
             DispatchQueue.main.async {[weak self] in
                 guard let self = self else { return }
-                if isJapanesse {
+//                if isJapanesse {
                     self.dismiss(animated: true) {
                         self.delegate?.onboardingDidFinish()
                     }
-                } else {
-                    self.performSegue(withIdentifier: self.showLicenseSegue, sender: self)
-                }
+//                } else {
+//                    self.performSegue(withIdentifier: self.showLicenseSegue, sender: self)
+//                }
             }
         }
     }

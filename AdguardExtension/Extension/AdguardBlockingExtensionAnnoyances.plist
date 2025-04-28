@@ -4,8 +4,6 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
-	<key>SharedResourcesGroup</key>
-	<string>$(ADGUARD_SHARED_RESOURCES_GROUP)</string>
 	<key>CFBundleDisplayName</key>
 	<string>Social</string>
 	<key>CFBundleExecutable</key>
@@ -30,6 +28,8 @@
 		<string>$(PRODUCT_MODULE_NAME).ContentBlockerRequestHandler</string>
 	</dict>
 	<key>NSHumanReadableDescription</key>
-	<string>Adguard - Adblock and Privacy Protection for the Web.</string>
+	<string>Simple Ad Blocker - Adblock and Privacy Protection for the Web.</string>
+	<key>SharedResourcesGroup</key>
+	<string>$(ADGUARD_SHARED_RESOURCES_GROUP)</string>
 </dict>
 </plist>

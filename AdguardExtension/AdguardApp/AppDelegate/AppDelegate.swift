@@ -77,7 +77,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         AppDelegate.initLogger(resources: resources)
         DDLogInfo("Starting application")
 
-        // StartupService may perform slow operations involving working with files or SQLite database.
+        // StartupService may perform slow operations involving working with f	iles or SQLite database.
         // It is safer to try to protect it from suspending by using a background task.
         _ = UIBackgroundTask.execute(name: "AppDelegate.init") {
             StartupService.start()

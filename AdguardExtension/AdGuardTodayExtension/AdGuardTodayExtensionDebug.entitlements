@@ -10,7 +10,7 @@
 	</array>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.squareboxtech.AdguardExtension</string>
+		<string>group.com.squarebox.safari.AdGuard</string>
 	</array>
 </dict>
 </plist>

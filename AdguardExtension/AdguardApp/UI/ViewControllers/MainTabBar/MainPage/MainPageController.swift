@@ -44,7 +44,6 @@ final class MainPageController: UIViewController, DateTypeChangedProtocol, Compl
     // MARK: - Protection status elements
 
     private lazy var safariProtectionButton = { getButton(for: .safari) }()
-//    private lazy var safariProtectionButton = { }
     private lazy var systemProtectionButton = { getButton(for: .system) }()
     private lazy var vpnUpsellButton: RoundRectButton? = {
         if !ChineseUserExposer.isUserFromChina {
